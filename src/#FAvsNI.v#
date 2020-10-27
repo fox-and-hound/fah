@@ -1,0 +1,20 @@
+Require Import ClassicalExtras.
+Require Import MyNotation.
+Require Import Setoid.
+Require Import FunctionalExtensionality.
+
+Require Import Galois.
+Require Import LanguageModel.
+Require Import TraceModel.
+Require Import Properties.
+Require Import ChainModel.
+Require Import RobustTraceProperty.
+
+Require Import RobustHyperProperty.
+
+Set Implicit Arguments.
+Unset Printing Implicit Defensive.
+
+
+Inductive SRC_cmd :=
+| 
